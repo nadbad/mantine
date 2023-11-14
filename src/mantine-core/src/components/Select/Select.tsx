@@ -224,7 +224,7 @@ export const Select = factory<SelectFactory>((_props, ref) => {
       >
         <Combobox.Target targetType={searchable ? 'input' : 'button'}>
           <InputBase
-            id={_id + ' here 123'}
+            id={_id}
             ref={ref}
             rightSection={
               rightSection ||
